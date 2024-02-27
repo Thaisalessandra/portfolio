@@ -127,6 +127,9 @@ body {
     color: var(--cor-secundaria);
     font-size: 28px;
 }
+.projetos{
+    display: flex;
+}
 @media (max-width: 1200px) {
     .apresentacao{
         flex-direction: column-reverse;
