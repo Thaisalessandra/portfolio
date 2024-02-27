@@ -39,7 +39,7 @@ body {
 }
 
 .cabecalho__menu__link {
-    margin-left: 5%;
+    
     font-family: var(--fonte-secundaria);
     font-size: 1.2rem;
     font-weight: 600;
