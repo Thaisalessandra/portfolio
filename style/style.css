@@ -113,23 +113,21 @@ body {
 }
 
 .rodape {
+    padding-top: 30px;
     background-color: var(--cor-terciaria);
-    padding: 24px;
     color: #000000;
+    height: 80px;
     text-align: center;
     font-family: var(--fonte-secundaria);
     font-size: 24px;
     width: 100%;
 }
-
 .rodape a {
     text-decoration: none;
     color: var(--cor-secundaria);
     font-size: 28px;
 }
-.projetos{
-    display: flex;
-}
+
 @media (max-width: 1200px) {
     .apresentacao{
         flex-direction: column-reverse;
