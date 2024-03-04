@@ -35,28 +35,34 @@ body {
     gap: 5rem;
 }
 .apresentacao__imagem{
-    width: 40% ;
+    display: flex;
+    width: 30%;
 }
 
 .cabecalho__menu__link {
     
     font-family: var(--fonte-secundaria);
     font-size: 1.2rem;
-    font-weight: 600;
+    font-weight: 400;
     color: var(--cor-terciaria);
     text-decoration: none;
 }
-
+.cabecalho__menu__link:hover{
+    font-weight: 700;
+   color: darkslateblue;
+  
+   
+}
 .apresentacao {
-    padding: 5% 8%;
+    padding: 5% 2%;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap:82px;
+    gap: 82px;
 }
 
 .apresentacao__conteudo {
-    width: 40%;
+    width: 70%;
     display: flex;
     flex-direction: column;
     gap: 2.5rem;
@@ -68,6 +74,7 @@ body {
 }
 
 .apresentacao__conteudo__texto {
+    text-align: justify;
     font-size: 1.5rem;
     font-family: var(--fonte-secundaria);
 }
@@ -75,7 +82,7 @@ body {
 .apresentacao__links {
     display: flex;
     align-items: center;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-between;
     gap: 2rem;
 }
@@ -113,6 +120,7 @@ body {
 }
 
 .rodape {
+    
     padding-top: 30px;
     background-color: var(--cor-terciaria);
     color: #000000;
@@ -127,8 +135,14 @@ body {
     color: var(--cor-secundaria);
     font-size: 28px;
 }
+.projetos{
+    
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
 
-@media (max-width: 1200px) {
+@media (max-width: 900px) {
     .apresentacao{
         flex-direction: column-reverse;
         padding:5%;
@@ -138,10 +152,40 @@ body {
         
     }
     .cabecalho{
-        padding:10% ;
+        padding: 2% 0% 0% 2%;
 
     }
-    .cabecalho__menu{
+    .cabecalho__menu {
         justify-content: center;
+        gap: 1rem;
     }
+    .cabecalho__menu__link{
+        font-size: 90%;
+    }
+    
+}
+.img_sobre{
+    max-width: 20%;
+}
+.list-contato{
+    
+    list-style: none;
+}
+.list-contato a{
+    color: #B8B5FF;
+    text-decoration:none;
+  
+    font-size: 2.5rem;
+
+}
+.contatos {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.apresentacao__conteudo__titulo_contato {
+    font-size: xxx-large;
+    display: flex;
+    justify-content: center;
 }
