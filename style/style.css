@@ -58,7 +58,7 @@ body {
 
 .apresentacao {
     justify-content: space-around;
-    padding: 6% 2%;
+    padding: 4% 2%;
     display: flex;
     align-items: center;
     
@@ -81,7 +81,7 @@ body {
     text-align: justify;
     font-size: 1.5rem;
     font-family: var(--fonte-secundaria);
-    padding-bottom: 12%;
+    
     
 }
 
@@ -131,7 +131,7 @@ body {
 .rodape {
     position: fixed;
     bottom: 0;
-    height: 60px;
+    height: 6%;
     padding: 2%;
     background-color: var(--cor-terciaria);
     color: #000000;
@@ -168,7 +168,7 @@ body {
         text-align: justify;
         font-size: 1.2rem;
         font-family: var(--fonte-secundaria);
-        padding-bottom: 12%;
+      
     }
 
     .cabecalho {
