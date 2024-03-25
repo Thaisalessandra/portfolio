@@ -1,4 +1,4 @@
-import * as THREE from 'https://github.com/Thaisalessandra/portfolio/blob/main/node_modules/three/build/three.module.js';
+import * as THREE from 'https://cdnjs.cloudflare.com/ajax/libs/three.js/0.162.0/three.module.js';
 
 const img ='./Assets/imagembg.jpg';
 const img2 = './Assets/imgBG.jpg';
